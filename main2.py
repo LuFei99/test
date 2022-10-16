@@ -48,7 +48,7 @@ client = WeChatClient(app_id, app_secret)
 
 wm = WeChatMessage(client)
 wea, lowtemperature,hightemperature,wind = get_weather()
-data = {"weather":{"value":wea",color":get_random_color()},
+data = {"weather":{"value":wea,"color":get_random_color()},
         "low":{"value":lowtemperature,"color":get_random_color()},
         "hight":{"value":highttemperature,"color":get_random_color()},
         "wind":{"value":wind,"color":get_random_color()},
